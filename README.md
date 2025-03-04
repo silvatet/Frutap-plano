@@ -18,7 +18,7 @@ Este é um sistema interativo desenvolvido para o evento da **Frutap**, onde os 
 - FileSaver.js (Download de arquivos)
 
 ## 📂 **Estrutura de Diretórios**
-📂 src ┣ 📂 Pages ┃ ┣ 📂 Cadastro ┃ ┃ ┣ 📜 Cadastro.jsx ┃ ┃ ┣ 📜 Cadastro.css ┃ ┣ 📂 Descanso ┃ ┃ ┣ 📜 Descanso.jsx ┃ ┃ ┣ 📜 Descanso.css ┃ ┣ 📂 Perguntas ┃ ┃ ┣ 📜 Perguntas.jsx ┃ ┃ ┣ 📜 Perguntas.css ┃ ┣ 📂 TelaFinal ┃ ┃ ┣ 📜 TelaFinal.jsx ┃ ┃ ┣ 📜 TelaFinal.css ┣ 📜 App.jsx ┣ 📜 main.jsx ┣ 📜 index.css ┣ 📜 vite.config.js ┗ 📜 README.md
+📂 src ┣ 📂 Pages ┃ ┣ 📂 Cadastro ┃ ┃ ┣ 📜 Cadastro.jsx ┃ ┃ ┣ 📜 Cadastro.css ┃ ┣ 📂 Descanso ┃ ┃ ┣ 📜 Descanso.jsx ┃ ┃ ┣ 📜 Descanso.css ┃ ┣ 📂 Plano ┃ ┃ ┣ 📜 Plano.jsx ┃ ┃ ┣ 📜 Plano.css ┃ ┣ 📂 TelaFinal ┃ ┃ ┣ 📜 TelaFinal.jsx ┃ ┃ ┣ 📜 TelaFinal.css ┣ 📜 App.jsx ┣ 📜 main.jsx ┣ 📜 index.css ┣ 📜 vite.config.js ┗ 📜 README.md
 
 ## 🎮 **Como Rodar o Projeto**
 1. Clone este repositório:
