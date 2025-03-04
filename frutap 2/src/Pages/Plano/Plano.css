@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Monday';
+    src: url('/fonts/Monday-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Container principal */
+.plano-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Monday';
+}
+
+/* Título */
+.titulo-plano {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Visualização do PDF */
+.pdf-viewer {
+    width: 80%;
+    height: 60vh;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Botão de imprimir */
+.botao-imprimir {
+    margin-top: 20px;
+    font-size: 2rem;
+    padding: 15px 30px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.botao-imprimir:hover {
+    background-color: #1565c0;
+}
+
+/* Ajuste para telas Full HD em vertical (TV Touch de 43") */
+@media (min-width: 1080px) and (min-height: 1920px) {
+    .titulo-plano {
+        font-size: 3.5rem;
+    }
+    
+    .pdf-viewer {
+        width: 85%;
+        height: 70vh;
+    }
+    
+    .botao-imprimir {
+        font-size: 2.5rem;
+    }
+}
+
+/* Ajustes para telas Ultra HD grandes */
+@media (min-width: 2000px) {
+    .titulo-plano {
+        font-size: 5rem;
+    }
+
+    .pdf-viewer {
+        width: 90%;
+        height: 75vh;
+    }
+
+    .botao-imprimir {
+        font-size: 3rem;
+        padding: 20px 40px;
+    }
+}

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Monday';
+    src: url('/fonts/Monday-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Contêiner principal da tela de descanso */
+.tela-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+/* Fundo da tela de descanso */
+.tela-descanso {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/restscreen1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Monday';
+}
+
+/* Ajuste para a logo centralizada */
+.logo {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Garante que ela fique no centro exato */
+}
+
+/* Ajustes para telas de TV Full HD vertical */
+@media (min-width: 1080px) and (min-height: 1920px) {
+    .tela-container {
+        width: 1080px;
+        height: 1920px;
+    }
+    .logo {
+        width: 60%;
+        max-width: 500px;
+    }
+}
+
+/* Garantindo que a logo fique sempre no centro em qualquer resolução */
+@media (max-width: 1080px) {
+    .logo {
+        width: 50%;
+        max-width: 450px;
+    }
+}
+
+@media (min-width: 2160px) and (min-height: 3840px) {
+    .logo {
+        width: 40%;
+        max-width: 700px;
+    }
+}
+
+/* Ajustes para telas grandes como a TV de 43" */
+@media (min-width: 2000px) {
+    .tela-container {
+        padding: 5%;
+    }
+    .logo {
+        width: 35%;
+        max-width: 800px;
+    }
+}
